@@ -1,0 +1,1432 @@
+{
+ "2D Tools": [],
+ "3D Tools": [],
+ "AOE Sphere": [
+  "Grade IV Relic",
+  "It is an egg-shaped relic with",
+  "black patterns on its surface.",
+  "It has a smooth texture and has a cracking",
+  "noise like eggs if pressure is applied to it."
+ ],
+ "Abyssal Snail Gunk": [
+  ":cosmetic_orth_coin:",
+  "Many delvers feel strangely compelled",
+  "to lick slime such as this. Well, DON'T!"
+ ],
+ "Abyssal Snail Shell": [
+  ":cosmetic_orth_coin:",
+  "If you put it to your ear, you might hear",
+  "the wailing of the souls lost to the sea."
+ ],
+ "Amakagame Whiskers": [
+  "An Amakagame is almost all stomach,",
+  "so they have few salvageable body parts"
+ ],
+ "Arc Staff": [
+  "Grade I Relic",
+  "A spear shape object carved out of the core from",
+  "a Goblet of Giants containing netherworld runes.",
+  "It is rumored to return to the user after being thrown."
+ ],
+ "Armor Repair Kit": [
+  "Used to mend damaged armor pieces.",
+  "Right click it onto a damaged item in your inventory."
+ ],
+ "Armor Upgrade: Charcoal Sand": [],
+ "Armor Upgrade: Heavy Gear": [],
+ "Armor Upgrade: Light Gear": [],
+ "Armor Upgrade: Netherite": [],
+ "Armor Upgrade: Stingerhead": [],
+ "Ashimite Antlers": [
+  ":cosmetic_orth_coin:",
+  "They use these to assert dominance.",
+  "Yet they run off when you get close..."
+ ],
+ "Ashimite Hoof": [
+  ":cosmetic_orth_coin:",
+  "Excellent for starting fires!"
+ ],
+ "Ashimite Meat Bone": [],
+ "Atlas Dignitas": [
+  "Grade I Relic",
+  "This Relic has found success in the mining, construction",
+  "and physical therapy industries, strangely enough.",
+  "Active ability. On right click starts to consume food in exchange of a mining speed buff."
+ ],
+ "Baked Magotato": [],
+ "Ball Lightning": [
+  "Grade II Relic",
+  "Only the battery powering this weapon is considered a Relic.",
+  "The rest was added for unknown and certainly dangerous purposes.",
+  "Active ability. Shoots slow moving projectile on right click.",
+  "Projectile deals damage over time."
+ ],
+ "Baracocha Fruit": [
+  "Neritantans love eating these. Fittingly,",
+  "Amakagame smell just like them to lure",
+  "in their prey."
+ ],
+ "Beniguma Fur": [
+  "This used to be a cute fox-like creature..."
+ ],
+ "Billabonk Sac": [
+  "It seems to be poisonous.",
+  "I best not eat it..."
+ ],
+ "Black Flask": [
+  "Grade IV relic",
+  "A fleshy bottle filled with a black, oily substance.",
+  "Drinking it causes a strange reaction within the body.",
+  "Consumable. Grants effects when drunk."
+ ],
+ "Black Whistle": [],
+ "Blank Template Rune": [],
+ "Blaze Reap": [
+  "Grade I Relic",
+  "Contains Everlasting Gunpowder,",
+  "which causes ongoing explosions",
+  "on whatever it is struck on.",
+  "Active ability. Charges weapon on right click.",
+  "Takes 5 charges to create explosion on left click."
+ ],
+ "Blossom": [
+  "Grade II Relic",
+  "An organic object that symbiotically attaches like a parasite.",
+  "When the hosts adrenaline level spikes the",
+  "relic consumes energy reserves to heal its habitat."
+ ],
+ "Blue Whistle": [],
+ "Bone": [],
+ "Bonfire": [],
+ "Breeze Piercer": [
+  "Grade I Relic",
+  "The air-storing implements along the shaft",
+  "of this bow are capable of propelling",
+  "an arrow surprisingly long distances.",
+  "Active ability. Shoots a barrage of arrows",
+  "and lunges user backwards on left click."
+ ],
+ "Buddstone Tap": [
+  "Grade II Relic",
+  "The crystals produced by this Relic, though",
+  "visually appealing, are remarkably fragile.",
+  "Active ability. Shoots projectiles on right click."
+ ],
+ "Build-Server Marker Block Blue": [],
+ "Build-Server Marker Block Brown": [],
+ "Build-Server Marker Block Cyan": [],
+ "Build-Server Marker Block Gray": [],
+ "Build-Server Marker Block Green": [],
+ "Build-Server Marker Block Light Blue": [],
+ "Build-Server Marker Block Light Gray": [],
+ "Build-Server Marker Block Lime": [],
+ "Build-Server Marker Block Magenta": [],
+ "Build-Server Marker Block Orange": [],
+ "Build-Server Marker Block Pink": [],
+ "Build-Server Marker Block Purple": [],
+ "Build-Server Marker Block Red": [],
+ "Build-Server Marker Block White": [],
+ "Build-Server Marker Block Yellow": [],
+ "Bundle of Silkfang Silk": [
+  "Most people don't enjoy getting",
+  "stuck in this."
+ ],
+ "Buroguro Lantern": [
+  "Seems to be poisonous.",
+  "I best not eat it..."
+ ],
+ "Buroguro Stinger": [
+  ":cosmetic_orth_coin:",
+  "It's still drippin'!"
+ ],
+ "Camp Voucher": [
+  "Trade it at an NPC camp",
+  "for a spot in their party"
+ ],
+ "Capillary Growth": [
+  "Grade I Relic",
+  "Rather unceremoniously cobbled together from the",
+  "remains of an Interference Unit, this sword",
+  "carries on its user's mysterious directives.",
+  "Active ability. Heals the user on kill. After 10",
+  "hits, right click to siphon health from nearby targets."
+ ],
+ "Carved Acacia Log": [],
+ "Carved Birch Log": [],
+ "Carved Crimson Stem": [],
+ "Carved Dark Oak Log": [],
+ "Carved Jungle Log": [],
+ "Carved Mangrove Log": [],
+ "Carved Oak Log": [],
+ "Carved Spruce Log": [],
+ "Carved Warped Stem": [],
+ "Chain Missile": [
+  "Grade I Relic",
+  "A spear shape object carved out of the core from",
+  "a Goblet of Giants containing netherworld runes.",
+  "It is rumored to return to the user after being thrown."
+ ],
+ "Charcoal Sand Axe": [],
+ "Charcoal Sand Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Charcoal Sand Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Charcoal Sand Hatchet": [],
+ "Charcoal Sand Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Charcoal Sand Hoe": [],
+ "Charcoal Sand Ingot": [],
+ "Charcoal Sand Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Charcoal Sand Ore": [],
+ "Charcoal Sand Pickaxe": [],
+ "Charcoal Sand Shovel": [],
+ "Charcoal Sand Sickle": [],
+ "Chimokami Fang": [
+  ":cosmetic_orth_coin:",
+  "It is said that these beasts house a",
+  "spiritual fire within."
+ ],
+ "Chimokami Tail": [
+  ":cosmetic_orth_coin:",
+  "These critters like darkness."
+ ],
+ "Chiseled Packed Ice": [],
+ "Cooked Ashimite Meat": [
+  "Very tasty and rich in nutrients!"
+ ],
+ "Cooked Billabonk Leg": [
+  "Moves when you apply electricity."
+ ],
+ "Cooked Brain": [],
+ "Cooked Chikyuoebi Claw": [
+  "Tastes like lobster!"
+ ],
+ "Cooked Corpse-Weeper Meat": [
+  "The stench is awful but it tastes so good..."
+ ],
+ "Cooked Cut Meat": [],
+ "Cooked Cyatoria Drumstick": [
+  "Said to be the offspring of a",
+  "rare creature originating from",
+  "the 7th Layer, The Final Maelstrom.",
+  "I assure you, it tastes just like chicken..."
+ ],
+ "Cooked Demonfish": [
+  "A staple food among delvers."
+ ],
+ "Cooked Dosetori Meat": [
+  "Tastes like fried chicken."
+ ],
+ "Cooked Fuwagi Meat": [
+  "Gamey with a hint of carrot and",
+  "apple. Mostly carrot though."
+ ],
+ "Cooked Hagamizukin": [
+  "The meat still feels angry with me,",
+  "but smells good now."
+ ],
+ "Cooked Hamashirama": [
+  "Can be obtained by finding and",
+  "catching a Hamashirama in the",
+  "waters of the Sea of Corpses.",
+  "Seems like a great source for food!"
+ ],
+ "Cooked Hammerbeak Wing": [
+  "A staple food among delvers."
+ ],
+ "Cooked Hashofu Tail": [
+  "It is said it tastes like sushi.",
+  "Smell isn't so unbearable anymore!"
+ ],
+ "Cooked Ikenosuke": [
+  "The skin is tough, but the meat... Yum!"
+ ],
+ "Cooked Inbyo Meat": [
+  "Seems more edible now, though",
+  "it still smells horrid..."
+ ],
+ "Cooked Kuongatari Abdomen": [
+  ":cosmetic_orth_coin:",
+  "Suprisingly tasty for such a small bug.."
+ ],
+ "Cooked Meat Scraps": [],
+ "Cooked Neritantan Meat": [
+  "Very tasty as they mostly eat Baracocha fruit.",
+  "Do not get in between a Neritantan and a Baracocha fruit!"
+ ],
+ "Cooked Okibo Meat": [
+  "There is a ritual in Orth, for whenever",
+  "a Black Whistle or White Whistle",
+  "return from their plunge into the Abyss.",
+  "The GuildHQ Head Chef butchers",
+  "the Okibo they arrive on",
+  "and prepare a giant feast for all."
+ ],
+ "Cooked Onitsuchi Wing": [
+  "Can also be acquired from cooking",
+  "This tastes delicious!"
+ ],
+ "Cooked Ottobas Meat": [
+  "This should be enough food",
+  "to last for daaaaayyss!!"
+ ],
+ "Cooked Shroombear Meat": [
+  "It's edible and dark in colour.",
+  "Might smell like excrement",
+  "if you don't clean it well..."
+ ],
+ "Cooked Spiralsquid": [
+  "Seems like a great source of food!"
+ ],
+ "Cooked Squidfly Brain": [
+  "Perhaps I will become smarter",
+  "if I consume this brain?"
+ ],
+ "Cooked Tesuchi Tail": [
+  "Obtained by cutting of the Tail in the",
+  "Forest of Temptation.",
+  "tastes more like chicken now.",
+  "it's not so squishy anymore..."
+ ],
+ "Cooked Uibuta Meat": [
+  "This should be enough food",
+  "to last for daaaaayyss!!"
+ ],
+ "Cooked Yomotsubi Abdomen": [
+  "Tastes suprisingly good."
+ ],
+ "Corpse-Weeper Eye": [
+  ":cosmetic_orth_coin:",
+  "It feels like it's staring into your soul..."
+ ],
+ "Corpse-Weeper Feather": [
+  ":cosmetic_orth_coin:",
+  "A quill for writing in blood."
+ ],
+ "Cosmos Chocolate": [],
+ "Cosmos Pink": [],
+ "Cosmos Red": [],
+ "Cradle of Fertility": [
+  "Grade IV Relic",
+  "The mysterious humming sound this orb produces is cited",
+  "as a cause of its apparent worship in ancient societies.",
+  "Active ability. Bone meals the surrounding area on right click."
+ ],
+ "Crate 1": [],
+ "Crate 2": [],
+ "Crescent Hatchet": [
+  "Grade I Relic",
+  "This Relic easily and effectively slices through the air, and even the",
+  "Abyss itself, using its surroundings’ mysterious nature to its advantage.",
+  "Active ability. Creates charges on right click.Takes increasing amounts",
+  "of charges to create a slash of varying strength on left click."
+ ],
+ "Crystal Hisoishi Claw": [
+  ":cosmetic_orth_coin:",
+  "This sharp claw can dig through stone",
+  "with ease."
+ ],
+ "Custom Hud": [],
+ "Cyatoria Feather": [
+  ":cosmetic_orth_coin:",
+  "It resembles the feathers",
+  "of a Sakawatari..."
+ ],
+ "Daikonchu Carapace": [
+  ":cosmetic_orth_coin:",
+  "I could totally wear this."
+ ],
+ "Daikonchu Wing": [
+  "They're still buzzing..."
+ ],
+ "Damage Sphere": [
+  "Grade IV Relic",
+  "It is an egg-shaped relic with",
+  "white and grey patterns on its surface.",
+  "It has a smooth texture and has a cracking",
+  "noise like eggs if pressure is applied to it.",
+  "Damages creatures on contact if thrown."
+ ],
+ "Demonfish on a Stick": [
+  "Useful in order to steer an Ashimite.",
+  "That is if you can manage to sneak up on one"
+ ],
+ "Depth Meter": [
+  "Used by delvers to keep",
+  "track of their depth.",
+  "Show depth with left-click"
+ ],
+ "Detector type I": [
+  "Grade II Relic",
+  "The perfect companion for the haughtiest of hunters, this mask makes",
+  "sure to point out creatures it deems less valuable than the wearer.",
+  "Passive slot ability. Applies damage modifier and",
+  "glow effect to any mob the wearer is looking at."
+ ],
+ "Dew-cress Knots": [
+  "Grade IV Relic",
+  "This Relic is regarded as an illicit substance in the",
+  "city of Orth, but laws tend to be overlooked in the Abyss.",
+  "Active ability. Grants strength and over time decreasing",
+  "movement buffs on right click in exchange of some health."
+ ],
+ "Diamond Sickle": [],
+ "Dosetori Bone": [
+  ":cosmetic_orth_coin:",
+  "This thing sounds... hollow."
+ ],
+ "Dosetori Wing": [
+  ":cosmetic_orth_coin:",
+  "Its texture feels otherworldly."
+ ],
+ "Edusan Scale": [
+  "Exudes a beautifully ominous aura."
+ ],
+ "Edusan Whisker": [
+  ":cosmetic_orth_coin:",
+  "When I touch this I start",
+  "hearing voices..."
+ ],
+ "Effects": [],
+ "Egg": [],
+ "Eternal Fortune": [],
+ "Fat": [],
+ "Fear Flight": [],
+ "Feather": [],
+ "Fibers": [],
+ "Flamethrower": [
+  "Grade II Relic",
+  "A relic born from decades of Orthian research.",
+  "Flamethrowers are vastly considered inhumane in use.",
+  "Active ability. Projects flames on right click.",
+  "Requires Flamethrower Fuel within the inventory to work."
+ ],
+ "Flamethrower Barrel": [],
+ "Flamethrower Fuel": [
+  "A rectangular capsule containing burnable materials.",
+  "Consumable. Fuel used by the Flamethrower."
+ ],
+ "Foliage 1": [],
+ "Foliage 2": [],
+ "Foliage 3": [],
+ "Foliage 4": [],
+ "Foliage 5": [],
+ "Foliage 6": [],
+ "Foliage 7": [],
+ "Foliage 8": [],
+ "Foxgloves Pink": [],
+ "Frayed Murmur": [
+  "Grade III Relic",
+  "Derived from technology recovered from Interference Units, this",
+  "mask bends light around its wearer, but inexplicably not itself.",
+  "Passive slot ability. Turns the user invisible."
+ ],
+ "Freesia Pink": [],
+ "Freesia Purple": [],
+ "French Broom": [],
+ "Frost": [],
+ "Frosted Glass": [],
+ "Frosted Snow": [],
+ "Fur": [],
+ "Furniture Outline": [],
+ "Fusing Piton": [],
+ "Fuwagi Foot": [
+  "Rumor has it if you have a fuwagi",
+  "foot in your inventory, you will",
+  "have good luck."
+ ],
+ "Fuwagi Hide": [
+  "Soft and cozy. You can make some",
+  "quality fabric out of this."
+ ],
+ "Gambit Incense": [
+  "Grade III Relic",
+  "The aromas that emanate from this capsule have been described",
+  "as ranging from pleasant and soothing to downright sickening.",
+  "Active ability. Grants a random potion effect in",
+  "a surrounding area on right click."
+ ],
+ "Glowstone": [],
+ "God Seek": [
+  "A mysterious device attuned to the lingering souls of the Abyss.",
+  "Its ethereal hum grows louder as it nears a praying skeleton,",
+  "guiding its wielder toward hidden relics."
+ ],
+ "Gold Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Gold Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Gold Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Gold Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Gold-mending Wedge": [
+  "Grade II Relic",
+  "Outside of the Abyss, this Relic fetches a high",
+  "price for its uses in chronic pain treatment.",
+  "Passive slot ability. Grants fast regen",
+  "when the user drops below 3 hearts."
+ ],
+ "Golden Sickle": [],
+ "Gondola Trigger": [],
+ "Grapple Hook": [
+  "Grade II Relic",
+  "Getting around the Abyss can be quite tough. Thankfully",
+  "entrepreneurial delvers came up with this contraption.",
+  "Use at your own risk.",
+  "Active ability. Right click to launch yourself",
+  "towards your target or pull mobs towards you."
+ ],
+ "Grim Ripper": [],
+ "Gust-Shot": [
+  "Grade II Relic",
+  "A key example of nature inspiring innovation, this handmade",
+  "Relic one-ups even the creature it was inspired by.",
+  "Active ability. Shoots a projectile on right click which",
+  "explodes on hit launching entities in different directions."
+ ],
+ "Hagamizukin Tooth": [
+  "Warped and sharp like some of",
+  "the tempestuous abyssal bedrock."
+ ],
+ "Hammerbeak Beak": [
+  ":cosmetic_orth_coin:",
+  "Can be used as a fire starter",
+  "when combined with a little steel.",
+  "It seems sharp enough",
+  "to put an eye out."
+ ],
+ "Hammerbeak Egg": [
+  "Can be used as a cooking ingredient",
+  "or mischievious acts of tomfoolery.",
+  "Mother Hammerbeak does",
+  "not look to happy..."
+ ],
+ "Hammerbeak Feather": [
+  ":cosmetic_orth_coin:",
+  "Just a feather, innit?"
+ ],
+ "Hashofu Body": [
+  ":cosmetic_orth_coin:",
+  "I can use this for what?"
+ ],
+ "Hashofu Eye": [
+  ":cosmetic_orth_coin:",
+  "There is a fire in its eyes."
+ ],
+ "Hashofu Tail": [
+  "It is said it tastes like sushi.",
+  "Though by it's smell I doubt it..."
+ ],
+ "Haste Paste": [
+  "Compact with nutrients fit for a miner,",
+  "but odours a vile raw smell and has",
+  "an awfully mushy texture.",
+  "If you think this tastes like a rotting brain,",
+  "that's because it is....",
+  "It's mushy, but why is it also crunchy?"
+ ],
+ "Headlamp": [
+  "A caver's lamp strapped to a battered helmet.",
+  "Passive slot ability. Lights the way ahead of you."
+ ],
+ "Heavy Delving Axe": [],
+ "Heavy Delving Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Heavy Delving Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Heavy Delving Hatchet": [],
+ "Heavy Delving Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Heavy Delving Hoe": [],
+ "Heavy Delving Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Heavy Delving Pickaxe": [],
+ "Heavy Delving Shovel": [],
+ "Heavy Delving Sickle": [],
+ "Hide": [],
+ "Himushi Core": [
+  "A powerful magma core.",
+  "Could be useful in powerful relics..."
+ ],
+ "Hisoishi Shell": [
+  "The shell is hard as amethyst",
+  "to keep out predators."
+ ],
+ "Hisomukuro Rib": [
+  "Its bony on the outside but",
+  "Metallic on the inside!",
+  "prehaps i can use this to launch something..."
+ ],
+ "Horncrier Horn": [
+  "These colors are unlike anything",
+  "I've encountered before.",
+  "Ponder",
+  "Sing",
+  "Seek",
+  "Feel",
+  "Admire",
+  "Call",
+  "Yearn",
+  "Dream"
+ ],
+ "Hyalos Incipient": [
+  "Tier 1 Lens",
+  "A material crafted from creatures",
+  "and minerals from the depths of the abyss.",
+  "Seem to be important for crafting a certain tool."
+ ],
+ "Hyalos Manifest": [
+  "Tier 2 Lens",
+  "A luminous material is crafted from",
+  "dangerous creatures in the depths of the abyss.",
+  "The lens seem to sparkling with colours",
+  "that seem to reflect light from the force field."
+ ],
+ "Ikonia Plate": [
+  "The skin is tough, but the meat... Yum!"
+ ],
+ "Inbyo Fur": [
+  "This stench is nauseating..."
+ ],
+ "Iron Sickle": [],
+ "Kagi Tachikiri Pincer": [
+  ":cosmetic_orth_coin:",
+  "Extremely sharp, watch your fingers!"
+ ],
+ "Kakatsumuri Glowing Tip": [
+  "The very tip of the shell, it seems",
+  "to leak a glowing sticky substance."
+ ],
+ "Kakatsumuri Shell": [
+  ":cosmetic_orth_coin:",
+  "Even after death the shell",
+  "still keeps it bright glow."
+ ],
+ "Kazura Squid Ink Sac": [
+  ":cosmetic_orth_coin:",
+  "The sac is white, but its ink is black."
+ ],
+ "Kuongatari Abdomen": [
+  ":cosmetic_orth_coin:",
+  "Only the desperate eat this raw..."
+ ],
+ "Kuongatari Juice": [
+  ":cosmetic_orth_coin:",
+  "Yuck! And it's sticky too!"
+ ],
+ "Kuongatari Silk": [
+  "A very thin, yet surprisingly",
+  "tensile strand of silk."
+ ],
+ "Laments Thread": [
+  "Grade III Relic",
+  "It’s unclear why Delvers carry Laments Thread with them, given",
+  "its effects. Nonetheless, it finds its use with certain groups.",
+  "Passive slot ability. Causes weakness and",
+  "mining fatigue to the user and the surroundings."
+ ],
+ "Light Delving Axe": [],
+ "Light Delving Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Light Delving Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Light Delving Hatchet": [],
+ "Light Delving Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Light Delving Hoe": [],
+ "Light Delving Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Light Delving Pickaxe": [],
+ "Light Delving Shovel": [],
+ "Light Delving Sickle": [],
+ "Lupine Purple": [],
+ "Madokajack Bone": [
+  ":cosmetic_orth_coin:",
+  "Even their bones smell rancid."
+ ],
+ "Madokajack Eye": [
+  "It looks so derpy without its body."
+ ],
+ "Madokajack Poop": [
+  ":cosmetic_orth_coin:",
+  "Did I scare it so much that",
+  "it pooped itself on death?"
+ ],
+ "Madokajack Scales": [
+  ":cosmetic_orth_coin:",
+  "Though hard, these scales are",
+  "slimy and smell of feces!?"
+ ],
+ "Magnet Sphere": [
+  "Grade IV Relic",
+  "It is an egg-shaped relic with",
+  "weird green patterns on its surface.",
+  "It has a smooth texture and has a cracking",
+  "noise like eggs if pressure is applied to it.",
+  "Capable of pulling creatures towards you"
+ ],
+ "Magotato": [],
+ "Makeshift Ghost Seek": [
+  "Grade III Relic",
+  "A mysterious device attuned to the lingering souls of the Abyss.",
+  "Its ethereal hum grows louder as it nears a praying skeleton,",
+  "guiding its wielder toward hidden relics.",
+  "Passive slot ability. Plays different sounds based on",
+  "distance in blocks (150 100 50 25) to a Praying Skeleton."
+ ],
+ "Makihige Ink Sac": [
+  ":cosmetic_orth_coin:",
+  "With this you might be able to",
+  "do something. Probably not though"
+ ],
+ "Makihige Shell": [
+  "I hope I can make armor from this",
+  "some day. But how?"
+ ],
+ "Makihige Tentacle": [
+  ":cosmetic_orth_coin:",
+  "Seems useful. I better keep this..."
+ ],
+ "Man-toyer Fur": [
+  "Thickly furred, and very sturdy..."
+ ],
+ "Man-toyer Horns": [
+  ":cosmetic_orth_coin:",
+  "I could cut myself on these",
+  "if I'm not careful."
+ ],
+ "Meat Shredder": [
+  "Used to cut meat into smaller pieces.",
+  "Passive slot ability. Meat you pick up is cut for you."
+ ],
+ "Mermaid Burp": [
+  "Grade III Relic",
+  "The air produced by this Relic has a notably fishy smell.",
+  "Passive slot ability. Grants water breathing."
+ ],
+ "Mitty Token": [
+  "Bestowed upon those",
+  "who fund the server",
+  "to buy random shit"
+ ],
+ "Mockwater Fluid": [
+  "Grade IV Relic",
+  "This viscous, living fluid is remarkably tedious to clean off",
+  "surfaces once applied, unless the organism wills it so.",
+  "Passive slot ability. Lets the slime wander outside its container."
+ ],
+ "Moon Whistle": [],
+ "Morinaut Shell": [
+  "Grade IV Relic",
+  "Cave Raiders have long tried and failed to use this Relic",
+  "to swim through the Sea of Corpses. Will you be the first?",
+  "Active ability. Grants dolphins",
+  "grace to the user on right click."
+ ],
+ "Mourning Amber": [],
+ "Music": [],
+ "Music Disc": [],
+ "Necrometallic Blade": [
+  "Grade I Relic",
+  "Researchers of the bacteria that inhabit this Relic advice",
+  "wielders not to touch its blade under any circumstances.",
+  "Active ability. Builds poison stacks on target on",
+  "left click. Creates poison cloud on right click."
+ ],
+ "Necrometallic Sledge": [
+  "Grade I Relic",
+  "The bacteria inside the head of this hammer is so densely",
+  "populated that it leaves a visible cloud when released.",
+  "Active ability. Lunges the user upward on right click",
+  "followed by a large impact which poisons the surroundings.",
+  "Inflicts a poison like effect on the target on left click."
+ ],
+ "Nerve-tuned Fibers": [
+  "Grade III Relic",
+  "Bearers of this organic armor describe wearing it as disgusting,",
+  "though some insist it makes them feel less alone in the vast Abyss.",
+  "Passive slot ability. Twitches and grants haste."
+ ],
+ "Netherite Axe": [],
+ "Netherite Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Netherite Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Netherite Hatchet": [],
+ "Netherite Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Netherite Hoe": [],
+ "Netherite Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Netherite Pickaxe": [],
+ "Netherite Shovel": [],
+ "Netherite Sickle": [],
+ "New Armor": [],
+ "Night Vision Goggles": [
+  "A pair of Relic-grade night vision goggles,",
+  "crafted with an intricate, almost organic design.",
+  "The lenses shimmer faintly, adjusting seamlessly",
+  "to darkness, revealing what the abyss hides.",
+  "Passive slot ability. Grants nightvision."
+ ],
+ "Nil Spout": [
+  "Grade IV Relic",
+  "Some collectors consider this Relic lesser",
+  "than its peers for producing ‘Too much water.’",
+  "Active ability. Adds water to cauldrons on right click."
+ ],
+ "Noticeboard Okibo": [],
+ "Octoliar Ink Sac": [
+  "Dark at first, but after",
+  "mixing it with the air it",
+  "starts to glow!"
+ ],
+ "Octoliar Tentacle": [
+  "Although a little wet, it's",
+  "as tough as a rock!"
+ ],
+ "Okibo Fur": [
+  "Looks like it will keep me warm",
+  "through the entire winter if needed."
+ ],
+ "Old Armor": [],
+ "Onitsuchi Egg": [
+  "Can be used as a cooking ingredient",
+  "or mischievious acts of tomfoolery.",
+  "Mother Onitsuchi does",
+  "not look to happy..."
+ ],
+ "Onitsuchi Feather": [
+  ":cosmetic_orth_coin:",
+  "Just a feather, innit?"
+ ],
+ "Onitsuchi Skull": [
+  ":cosmetic_orth_coin:",
+  "Can be used as a fire starter",
+  "when combined with a little steel.",
+  "It seems sharp enough",
+  "to put an eye out."
+ ],
+ "Orb Piercer Face Fragments": [
+  ":cosmetic_orth_coin:",
+  "I wonder if I collect enough, will I",
+  "be able to see it as well?",
+  "Probably just wishful thinking..."
+ ],
+ "Orb Piercer Spike": [
+  ":cosmetic_orth_coin:",
+  "Drops from the fiercely territorial",
+  "Orb Piercer. Handle carefully!",
+  "Its venom is very lethal."
+ ],
+ "Orphan Delving Axe": [],
+ "Orphan Delving Hatchet": [],
+ "Orphan Delving Hoe": [],
+ "Orphan Delving Pickaxe": [],
+ "Orphan Delving Shovel": [],
+ "Orphan Delving Sickle": [],
+ "Orphanage Issued Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Orphanage Issued Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Orphanage Issued Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Orphanage Issued Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Orth Coin": [],
+ "Ouba": [
+  "Smooth rock.",
+  "Active ability. Right click to throw."
+ ],
+ "Packed Ice Bricks 1": [],
+ "Packed Ice Bricks 2": [],
+ "Packed Ice Pillar 1": [],
+ "Packed Ice Pillar 2": [],
+ "Packed Snow": [],
+ "Parasite": [],
+ "Parasitic Watershrooms": [
+  ":cosmetic_orth_coin:",
+  "Sucks nutrients from its host, releasing",
+  "them back when the host is near death."
+ ],
+ "Pebble": [
+  "Smooth rock.",
+  "Active ability. Right click to throw."
+ ],
+ "Petrifying Stone": [
+  "Grade III Relic",
+  "A foreign composer once introduced this Relic into his orchestra.",
+  "Shortly after, several of his woodwinds quit.",
+  "Active ability. Slows user and surroundings on right click."
+ ],
+ "Piton": [],
+ "Plant Matter": [
+  "Maybe I could use this to make my own plants,",
+  "though they wouldn't do anything special",
+  "without proper care.."
+ ],
+ "Poisonous Magotato": [],
+ "Polished Packed Ice": [],
+ "Princess Bosom": [
+  "Grade III Relic",
+  "After decades of speculation, the Princess",
+  "Bosom’s purpose has finally been found!",
+  "Active ability. Grants absorption to the user",
+  "and confusion to the surroundings on right click."
+ ],
+ "Raw Ashimite Meat": [
+  "Seems like a great source of food."
+ ],
+ "Raw Billabonk Leg": [
+  "Do the stanky leg"
+ ],
+ "Raw Brain": [],
+ "Raw Charcoal Sand": [],
+ "Raw Chikyuoebi": [
+  "Not that tasty raw..."
+ ],
+ "Raw Corpse-Weeper Meat": [
+  "It both smells and tastes horrible...",
+  "Will cooking this help?"
+ ],
+ "Raw Cut Meat": [],
+ "Raw Cyatoria Drumstick": [
+  "Said to be the offspring of a",
+  "rare creature originating from",
+  "the 7th Layer, The Final Maelstrom.",
+  "I assure you, it tastes just like chicken..."
+ ],
+ "Raw Demonfish": [
+  "Imagine the shame of getting flopped",
+  "to death by one of these."
+ ],
+ "Raw Dosetori Meat": [
+  "Tastes like chicken."
+ ],
+ "Raw Fuwagi Meat": [
+  "Gamey with a hint of carrot and",
+  "apple. Mostly carrot though."
+ ],
+ "Raw Hagamizukin": [
+  "The meat still feels angry with me."
+ ],
+ "Raw Hamashirama": [
+  "Can be obtained by finding and",
+  "catching a Hamashirama in the",
+  "waters of the Sea of Corpses.",
+  "Seems like a great source for food!"
+ ],
+ "Raw Hammerbeak Wing": [
+  "This meat seems delicious",
+  "if cooked properly!"
+ ],
+ "Raw Ikenosuke": [
+  "The skin was tough, but the meat... Yum!"
+ ],
+ "Raw Inbyo Meat": [
+  "Doesn't look very tasty..."
+ ],
+ "Raw Meat Scraps": [],
+ "Raw Neritantan Meat": [
+  "Very tasty as they mostly eat Baracocha fruit.",
+  "Do not get in between a Neritantan and a Baracocha fruit!"
+ ],
+ "Raw Okibo Meat": [
+  "Usually found in Orth as a source of",
+  "transportation of goods, Okibos",
+  "are also a great source of food",
+  "due to their large size."
+ ],
+ "Raw Onitsuchi Wing": [
+  "This meat seems delicious",
+  "if cooked properly!"
+ ],
+ "Raw Ottobas Meat": [
+  "A thick layer of fat clings to the meat.",
+  "Cooking it should help making it edible."
+ ],
+ "Raw Spiralsquid": [
+  "Seems like a great source of food!"
+ ],
+ "Raw Uibuta Meat": [
+  "A thick layer of fat clings to the meat.",
+  "Cooking it should help making it edible."
+ ],
+ "Ray-healing Plate": [
+  "Grade III Relic",
+  "Holders of this Relic report that it feels warm",
+  "and comfortable to the touch, even in cold climates.",
+  "Passive slot ability. Slowly heals the user",
+  "when above a specific light level."
+ ],
+ "Red Whistle": [],
+ "Refined Ghost Seek": [
+  "Grade I Relic",
+  "A mysterious device attuned to the lingering souls of the Abyss.",
+  "Its ethereal hum grows louder as it nears a praying skeleton,",
+  "guiding its wielder toward hidden relics.",
+  "Passive slot ability. Plays different sounds based on",
+  "distance in blocks (250 150 100 50 25) to a Praying Skeleton."
+ ],
+ "Relic Core": [],
+ "Repaired Ghost Seek": [
+  "Grade II Relic",
+  "A mysterious device attuned to the lingering souls of the Abyss.",
+  "Its ethereal hum grows louder as it nears a praying skeleton,",
+  "guiding its wielder toward hidden relics.",
+  "Passive slot ability. Plays different sounds based on",
+  "distance in blocks (200 150 100 50 25) to a Praying Skeleton."
+ ],
+ "Reverberating Edge": [
+  "Grade I Relic",
+  "The innate abilities carried by this dagger might make its use",
+  "look effortless, but it’s actually taxing on the wielder.",
+  "Active ability. Each hit creates charges and deals additional",
+  "damage at 7 charges. Takes 10 charges to stun surroundings on sneak / right click."
+ ],
+ "Rinsipede Segments": [
+  "I've heard their body makes",
+  "for a great fertiliser."
+ ],
+ "Roasted Madokajack Eye": [
+  "I wonder how many people in Orth",
+  "would like to eat this..."
+ ],
+ "Rock Salt": [],
+ "Rock Top": [
+  "Grade IV Relic",
+  "Fanatics posture that even if the world itself",
+  "were to stop spinning, Rock Top would not.",
+  "Passive slot ability. Slowly spins the user."
+ ],
+ "Rock-walker Mandible": [
+  ":cosmetic_orth_coin:",
+  "The rockwalkers use these as their climbing",
+  "gear, and its toughness sure looks the part."
+ ],
+ "Rohana Powder": [
+  ":cosmetic_orth_coin:",
+  "The closest thing to magical",
+  "fairy dust."
+ ],
+ "Rohana Tail": [
+  ":cosmetic_orth_coin:",
+  "Can be used to make brewing stands",
+  "or other useful relics..."
+ ],
+ "Roots": [],
+ "Rope": [],
+ "Sainona": [
+  "Smooth rock.",
+  "Active ability. Right click to throw."
+ ],
+ "Sakuranbo Dust": [
+  ":cosmetic_orth_coin:",
+  "Careful! Ignites easily."
+ ],
+ "Scaled Umbrella": [
+  "Grade IV Relic",
+  "A relic born from decades of Orthian research. A shield which",
+  "is made from a rare ore found in the depths of the abyss.",
+  "Active ability. Lunges the user backward on right click."
+ ],
+ "Shell": [],
+ "Shifting Pike": [
+  "Grade I Relic",
+  "This Relic commonly finds its use supporting",
+  "wielders of more offensively-focused relics,",
+  "but is perfectly capable on its own as well.",
+  "Active ability. Charges on right click. Has",
+  "3 different buff modes based on the users charges on left click."
+ ],
+ "Shiratsubi Wing": [
+  ":cosmetic_orth_coin:",
+  "A sturdy, metallic wing.",
+  "Perhaps i can mold this into something..."
+ ],
+ "Shirbiri Maku": [
+  "Grade IV Relic",
+  "It is not recommended to attach this implement to",
+  "any other part of one’s body than the arm or hand.",
+  "Passive slot ability. Grants a short",
+  "damage modifier at random intervals."
+ ],
+ "Shiver Mist": [
+  "Grade I Relic",
+  "The chemicals produced by this Relic maintain a cold enough",
+  "temperature to freeze one solid, even in the hottest of climates.",
+  "Active ability. Shoots a bunch of inaccurate projectiles",
+  "on right click. Projectiles freeze and slow the target on hit."
+ ],
+ "Shroombear Meat": [
+  "It's edible and dark in colour.",
+  "Might smell like excrement",
+  "if you don't clean it well..."
+ ],
+ "Silk": [],
+ "Silkfang Eye": [
+  ":cosmetic_orth_coin:",
+  "Rumor has it that a",
+  "larger arachnid can stare back",
+  "at you through this..."
+ ],
+ "Silkfang Silk": [
+  ":cosmetic_orth_coin:",
+  "Somewhat fine silk with a",
+  "large amount of tensile strength."
+ ],
+ "Simple Bandage": [
+  "A standard issue bandage. Treats most non-grievous wounds.",
+  "Active ability. On right consumes bandage healing the user."
+ ],
+ "Sin Spiral": [
+  "Grade II Relic",
+  "The Delver Guild has stricken this “Artifact” from its",
+  "records for good reason. Why do you have this?",
+  "Active ability. Lunges user forward and creates",
+  "area of effect potions around the user on right click."
+ ],
+ "Skull Pattern": [
+  "Found on praying skeletons. Recently",
+  "discovered knowledge from thousands of years ago."
+ ],
+ "Small Hide": [],
+ "Snout Pattern": [
+  "Found on praying skeletons. Recently",
+  "discovered knowledge from thousands of years ago."
+ ],
+ "Snow Bricks": [],
+ "Snow Pillar": [],
+ "Snow Tiles": [],
+ "Sonic Stone": [],
+ "Soul-aiming Light": [
+  "Grade II Relic",
+  "A prototype device once wielded by the Sovereign of Dawn,",
+  "discarded for unknown reasons.",
+  "Active ability. Shoots multiple homing",
+  "projectiles on right click."
+ ],
+ "Sparagmos": [],
+ "Spikewalker Meat": [
+  ":cosmetic_orth_coin:",
+  "Inedible, hard, rough,",
+  "and gamey..."
+ ],
+ "Spikewalker Spike": [
+  "It may not look pointy,",
+  "but don't let it poke ya!"
+ ],
+ "Spined Targe": [
+  "Grade III Relic",
+  "A relic born from decades of Orthian research. A shield which",
+  "is made from a rare ore found in the depths of the abyss.",
+  "Active ability. Lunges the user forward on left click."
+ ],
+ "Spittleshrub Root": [
+  ":cosmetic_orth_coin:",
+  "This looks like a pretty vital ingredient",
+  "for some plants."
+ ],
+ "Splitjaw Gunk": [
+  ":cosmetic_orth_coin:",
+  "Yucky."
+ ],
+ "Splitjaw Scales": [
+  ":cosmetic_orth_coin:",
+  "Can be used to",
+  "make certain blocks."
+ ],
+ "Spore Manta Powder": [
+  "The furthest thing to magical",
+  "fairy dust."
+ ],
+ "Spore Manta Wing": [
+  "Leathery wing laced in a poisonous powder"
+ ],
+ "Spread Sphere": [
+  "Grade IV Relic",
+  "It is an egg-shaped relic with",
+  "grey patterns on its surface.",
+  "It has a rigrid texture and has a cracking",
+  "noise like eggs if pressure is applied to it.",
+  "Shoots multiple projectiles",
+  "after being thrown."
+ ],
+ "Squidfly Brain": [
+  "Eating it raw might not",
+  "be the brighest idea",
+  "I've come up with..."
+ ],
+ "Star Compass": [
+  "Points towards the center of the Abyss"
+ ],
+ "Star Compass Needle": [
+  "Used to craft a Star Compass"
+ ],
+ "Steve Antlers": [
+  "Can be obtained by hunting down",
+  "Steve in the Goblets of Giants."
+ ],
+ "Steve Eye": [
+  "Can be obtained by hunting down",
+  "Steve in the Goblets of Giants."
+ ],
+ "Steve Piss": [
+  "Can be obtained by hunting down",
+  "Steve in the Goblets of Giants."
+ ],
+ "Stinger Horn": [
+  ":cosmetic_orth_coin:",
+  "The beak of a Stinger sharp enough to pierce flesh."
+ ],
+ "Stinger Wing": [
+  "A very thin, yet surprisingly",
+  "flexible piece of flesh"
+ ],
+ "Stingerhead Axe": [],
+ "Stingerhead Boots": [
+  "Erm, dis do be armor."
+ ],
+ "Stingerhead Chestplate": [
+  "Erm, dis do be armor."
+ ],
+ "Stingerhead Eye": [
+  "Its eye was almost fused into its armor."
+ ],
+ "Stingerhead Flesh": [
+  "This is definetly not edible!",
+  "It reeks of burned dried vomit, much",
+  "like Nanachi's Netherworld Stew."
+ ],
+ "Stingerhead Hatchet": [],
+ "Stingerhead Helmet": [
+  "Erm, dis do be armor."
+ ],
+ "Stingerhead Hoe": [],
+ "Stingerhead Leggings": [
+  "Erm, dis do be armor."
+ ],
+ "Stingerhead Pickaxe": [],
+ "Stingerhead Scale": [
+  "It is said to be the toughest known",
+  "material in the Abyss.",
+  "Perhaps I can upgrade my",
+  "armour with this?"
+ ],
+ "Stingerhead Shovel": [],
+ "Stingerhead Sickle": [],
+ "Stone Bench": [],
+ "Stone Sickle": [],
+ "Subtle Pull": [
+  "Grade I Relic",
+  "The draw of the Abyss upon those who gaze into it",
+  "is inescapable. This Relic makes that feeling palpable.",
+  "Active ability. Shoots projectile on right click.",
+  "Projectile pulls targets and deals a large amount of damage."
+ ],
+ "Sudden Pinch": [
+  "Grade IV Relic",
+  "Stories have been passed around about a Cave Raider who used this",
+  "Relic to keep himself constantly awake through his expeditions.",
+  "Passive slot ability. Grants short speed buffs when equipped."
+ ],
+ "Sun Sphere": [
+  "Grade IV Relic",
+  "It is an egg-shaped relic with",
+  "golden patterns on its surface.",
+  "It has a complicated texture and has a cracking",
+  "noise like eggs if pressure is applied to it.",
+  "Emits light when it is being thrown."
+ ],
+ "Swarmhoarder Jelly": [
+  ":cosmetic_orth_coin:",
+  "Very sticky, almost like some sort of resin.",
+  "Tastes very watery..."
+ ],
+ "Swarmshocker Charged Powder": [
+  "This stores an impressive amount of energy!"
+ ],
+ "Symbiotic Water-shrooms": [
+  "Grade III Relic",
+  "Doctors have failed to reach an agreement on the safety of fungi",
+  "like these as medicine. Their efficacy, however, is beyond doubt.",
+  "Active ability. Heals user and surroundings on right click."
+ ],
+ "Tachikatana Claw": [
+  ":cosmetic_orth_coin:",
+  "Striking it in a particular way emits",
+  "a shockwave.."
+ ],
+ "Tachikatana Leg": [
+  "Tastes like crab!",
+  "Too tough to cook!"
+ ],
+ "Tachikatana Scale": [
+  ":cosmetic_orth_coin:",
+  "A shiny scale knocked off the Tachikatana!",
+  "They're rumored to be one of the most waterproof",
+  "materials in the Abyss."
+ ],
+ "Tactile Roots": [
+  "Grade III Relic",
+  "The perfect cave raiding boots for those with a green thumb… or toe?",
+  "Passive slot ability. Grants movement",
+  "based on the block the user is on."
+ ],
+ "Tesuchi Scale on a Stick": [
+  "Useful in order to steer an Abyssal Snail."
+ ],
+ "Tesuchi Scales": [
+  ":cosmetic_orth_coin:",
+  "Obtained by slaughtering a Tesuchi in",
+  "Forest of Temptation.",
+  "It changes colour even in your hand."
+ ],
+ "Tesuchi Tail": [
+  "Obtained by cutting of the Tail in the",
+  "Forest of Temptation.",
+  "It is said it tastes like rubber.",
+  "is strangely very squishy!..."
+ ],
+ "Tidal Spout": [
+  "Grade III Relic",
+  "This Relic has found use outside of the Abyss",
+  "among sea captains wishing to speed up their boats.",
+  "Active ability. Generates a large wall of water",
+  "on right click which can push back entities."
+ ],
+ "Titanjaw Pearl": [
+  ":cosmetic_orth_coin:",
+  "Why do I feel like I am haunted..."
+ ],
+ "Titanjaw Scale": [
+  ":cosmetic_orth_coin:",
+  "Might be useful to craft gear",
+  "with if I collect enough."
+ ],
+ "Tomorrow Signal": [],
+ "Tool Repair Kit": [
+  "Used to mend damaged tools.",
+  "Right click it onto a damaged item in your inventory."
+ ],
+ "Tooth": [],
+ "Tosubachi": [
+  "A dried Tesuchi. Seen as a delicacy, its",
+  "toughness is made up for by its unique flavor."
+ ],
+ "Tranquil Pierce": [
+  "Grade I Relic",
+  "A spear shape object carved out of the core from",
+  "a Goblet of Giants containing netherworld runes.",
+  "Active ability. Charges when in hand. Can be thrown",
+  "on left click. Uses riptide in water on right click."
+ ],
+ "Treble Winds": [
+  "Grade III Relic",
+  "Researchers speculate that this Relic’s purpose was never to send",
+  "oneself flying, but that never stopped anyone from using it that way.",
+  "Active ability. Propels the user upward on",
+  "right click and forward on left click."
+ ],
+ "Twinspur Orange": [],
+ "Uibuta Tooth": [
+  "It is fairly big, but suprisingly blunt..."
+ ],
+ "Undye": [],
+ "Undying Wisp": [
+  "Grade III Relic",
+  "The sound produced by this seemingly-primitive rattle is",
+  "enough to send chills down the spine of any who hear it.",
+  "Active ability. Shoots projectile on right click.",
+  "Projectile stuns the target it hits."
+ ],
+ "Unpowered Core": [],
+ "Vanilla": [],
+ "Vanilla Tools": [],
+ "Virinsipede Antlers": [
+  "Blazing hot, just like",
+  "the Virinsipede's rage."
+ ],
+ "Virinsipede Segments": [
+  "I've heard their body makes",
+  "for a great fertiliser."
+ ],
+ "Wanabushi": [
+  "Grade III Relic",
+  "Researchers speculate that this automated sentry was a",
+  "precursor to the larger, more imposing Interference Unit.",
+  "Active ability. Summons a",
+  "Vine Shooter inspired automata on right click."
+ ],
+ "Weight of the World": [
+  "Grade II Relic",
+  "The metal making up this weapon requires wielders to build up mass",
+  "amounts of kinetic energy. It bears a high risk of personal injury in use.",
+  "Active ability. The longer the fall, the more damage it deals."
+ ],
+ "Whisper Image": [
+  "Grade II Relic",
+  "The hard-light copies of projectiles produced",
+  "by this Relic still hurt as though they were real.",
+  "Passive slot ability. On bow and crossbow use",
+  "shoots an additional projectile which deals damage."
+ ],
+ "Windmill": [],
+ "Woodcrier Horn": [
+  ":cosmetic_orth_coin:",
+  "Its hard and solid...",
+  "I can build structures with this."
+ ],
+ "Yellow Grass": [
+  "Smooth rock.",
+  "Active ability. Right click to throw."
+ ],
+ "Yomotsubi Abdomen": [
+  "Perhaps this could be cooked..."
+ ],
+ "Yomotsubi Wing": [
+  "A sturdy, metallic wing.",
+  "Perhaps i can mold this into something..."
+ ],
+ "Yūkonokage": [
+  "Grade I Relic",
+  "Discovered and named by a foreign Cave Raider, this scythe",
+  "carries a long history of ruin. Will you carry on its legacy?",
+  "Each swing with its jagged blade rends not",
+  "just flesh—but the soul itself. When",
+  "right-clicked and crouching, the scythe unleashes",
+  "the pent-up souls in a violent burst of",
+  "spectral energy, tearing through all nearby life."
+ ],
+ "Zutsuugi": [
+  "Smooth rock.",
+  "Active ability. Right click to throw."
+ ],
+ "bottlebrushes": []
+}
