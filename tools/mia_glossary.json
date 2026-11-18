@@ -275,7 +275,14 @@
   "<emojy:layer_5> Tier 2 Lens": "<emojy:layer_5> 二级镜片",
   "<emojy:layer_3> Tier 1 Lens": "<emojy:layer_3> 一级镜片",
   "Tier 1 Lens": "一级镜片",
-  "Tier 2 Lens": "二级镜片"
+  "Tier 2 Lens": "二级镜片",
+  "Raw Corpse-Weeper Meat": "生啼尸肉",
+  "Raw Corpse Weeper Meat": "生啼尸肉",
+  "Man-toyer Fur": "螳翼兽毛皮",
+  "Grade I": "一级",
+  "Grade II": "二级",
+  "Grade III": "三级",
+  "Grade IV": "四级"
  },
  "mobs": {
   "Abyssal Snail": "深渊蜗牛",
@@ -486,7 +493,13 @@
   "A relic born from decades of Orthian research.": "奥斯数十年研究的结晶",
   "That is if you can manage to sneak up on one": "前提是你能悄悄靠近一只",
   "butchers": "屠宰者",
-  "Tail": "尾巴"
+  "Tail": "尾巴",
+  "Will cooking this help?": "煮熟了会好点吗？",
+  "It both smells and tastes horrible...": "闻起来恶心，吃起来也恶心…",
+  "Thickly furred, and very sturdy...": "毛很厚，结实得很…",
+  "relic.": "遗物。",
+  "You hear whispers that": "你听到低语：",
+  "has obtained a": "获得了"
  },
  "poi": {
   "Sea of Corpses": "尸海",
@@ -504,6 +517,9 @@
   "Orth": "奥斯",
   "Orth.": "奥斯。",
   "GuildHQ": "公会总部",
-  "GuildHQ Head Chef butchers": "公会总部的主厨会宰杀"
+  "GuildHQ Head Chef butchers": "公会总部的主厨会宰杀",
+  "Great Fault": "大断层",
+  "Goblets of Giants": "巨人之杯",
+  "Capital of the Unreturned": "不归之都"
  }
 }

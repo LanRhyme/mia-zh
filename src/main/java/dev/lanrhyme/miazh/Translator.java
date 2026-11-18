@@ -9,6 +9,8 @@ import com.google.gson.JsonParser;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
+import net.minecraft.text.TextContent;
+import net.minecraft.text.TranslatableTextContent;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -268,6 +270,43 @@ public final class Translator {
     }
 
     private String lookup(String raw) {
+        return lookup(raw, 0);
+    }
+
+    /**
+     * 先剥掉私用区字符（MIA 用 U+E000 段字符渲染层数图标），查完再把图标补回去，
+     * 这样 "Forest of Temptation \ue002" 也能命中「妖惑之森」。
+     */
+    private String lookup(String raw, int depth) {
+        String icons = privateChars(raw);
+        String core = icons.isEmpty() ? raw : stripPrivate(raw);
+        String out = lookupCore(core, depth);
+        return out == null ? null : out + icons;
+    }
+
+    private static String privateChars(String s) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c >= 0xE000 && c <= 0xF8FF) {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    private static String stripPrivate(String s) {
+        StringBuilder sb = new StringBuilder(s.length());
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c < 0xE000 || c > 0xF8FF) {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    private String lookupCore(String raw, int depth) {
         String direct = entries.get(raw);
         if (direct != null) {
             return direct;
@@ -290,13 +329,29 @@ public final class Translator {
                 return leadingCodes(trimmed) + direct;
             }
         }
-        for (Pat p : patterns) {
-            try {
-                Matcher m = p.pattern.matcher(clean);
-                if (m.matches()) {
-                    return m.replaceFirst(p.replace);
+        if (depth < 3) {
+            for (Pat p : patterns) {
+                try {
+                    Matcher m = p.pattern.matcher(clean);
+                    if (!m.matches()) {
+                        continue;
+                    }
+                    String out = m.replaceFirst(p.replace);
+                    // 正则捕获组里如果还是英文（例如 "in the Forest of Temptation" 的层名），
+                    // 再进一层查表，让「前缀 + 名词」这类句子也能整句变中文
+                    for (int g = 1; g <= m.groupCount(); g++) {
+                        String gv = m.group(g);
+                        if (gv == null || gv.isEmpty() || gv.equals(clean)) {
+                            continue;
+                        }
+                        String tr = lookup(gv, depth + 1);
+                        if (tr != null) {
+                            out = out.replace(gv, tr);
+                        }
+                    }
+                    return out;
+                } catch (Throwable ignored) {
                 }
-            } catch (Throwable ignored) {
             }
         }
         return null;
@@ -348,7 +403,7 @@ public final class Translator {
         if (!harvest || raw == null || isOpaque(raw)) {
             return;
         }
-        String s = stripLegacyCodes(raw).strip();
+        String s = stripPrivate(stripLegacyCodes(raw)).strip();
         if (s.length() < 2 || s.length() > 160) {
             return;
         }
@@ -423,16 +478,48 @@ public final class Translator {
                 return in;
             }
             List<Text> siblings = in.getSiblings();
-            if (siblings == null || siblings.isEmpty()) {
+            boolean hasSiblings = siblings != null && !siblings.isEmpty();
+            boolean translatable = in.getContent() instanceof TranslatableTextContent;
+            if (!hasSiblings && !translatable) {
                 recordMiss(whole);
                 return in;
             }
             // 记录整行（不是碎片），方便翻译整句
             recordMiss(whole);
 
-            Text[] mapped = new Text[siblings.size()];
+            // 翻译可翻译文本的参数：死亡提示里的生物名、广播里的物品名都是在参数里
+            TextContent content = in.getContent();
+            TextContent newContent = content;
             boolean changed = false;
-            for (int i = 0; i < siblings.size(); i++) {
+            if (content instanceof TranslatableTextContent tc) {
+                Object[] args = tc.getArgs();
+                Object[] mappedArgs = new Object[args.length];
+                for (int i = 0; i < args.length; i++) {
+                    Object arg = args[i];
+                    if (arg instanceof Text argText) {
+                        Text argOut = translate(argText);
+                        mappedArgs[i] = argOut;
+                        if (argOut != argText) {
+                            changed = true;
+                        }
+                    } else if (arg instanceof String argStr) {
+                        String argTr = resolve(argStr);
+                        mappedArgs[i] = argTr != null ? argTr : arg;
+                        if (argTr != null) {
+                            changed = true;
+                        }
+                    } else {
+                        mappedArgs[i] = arg;
+                    }
+                }
+                if (changed) {
+                    newContent = new TranslatableTextContent(tc.getKey(), tc.getFallback(), mappedArgs);
+                }
+            }
+
+            int siblingCount = hasSiblings ? siblings.size() : 0;
+            Text[] mapped = new Text[siblingCount];
+            for (int i = 0; i < siblingCount; i++) {
                 Text sib = siblings.get(i);
                 Text out = translate(sib);
                 mapped[i] = out;
@@ -444,7 +531,7 @@ public final class Translator {
                 return in;
             }
             // 关键：新父节点必须带上原 style，否则子节点会丢掉继承来的 font / color
-            MutableText out = MutableText.of(in.getContent());
+            MutableText out = MutableText.of(newContent);
             out.setStyle(in.getStyle());
             for (Text t : mapped) {
                 out.append(t);
