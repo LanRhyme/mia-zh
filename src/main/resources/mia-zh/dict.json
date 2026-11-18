@@ -6324,7 +6324,7 @@
   },
   {
    "pattern": "^in the (.+)$",
-   "replace": "在$1"
+   "replace": "（$1）"
   },
   {
    "pattern": "^in (.+)$",
@@ -6333,6 +6333,10 @@
   {
    "pattern": "^You hear whispers that (.+) has obtained a (.+) relic\\.$",
    "replace": "你听到低语：$1 获得了一件$2遗物。"
+  },
+  {
+   "pattern": "^Unable to use Axiom.*$",
+   "replace": "无法使用 Axiom：你的版本过旧，请更新到最新版才能在本服使用"
   },
   {
    "pattern": "^([A-Za-z][A-Za-z' \\-]*) (\\d+)/(\\d+)$",

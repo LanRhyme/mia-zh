@@ -102,9 +102,10 @@ PATTERNS = [
     {"pattern": r"^Range:?\s*(.+)$", "replace": "范围：$1"},
     {"pattern": r"^Speed:?\s*(.+)$", "replace": "速度：$1"},
     {"pattern": r"^Layer\s*(\d+)$", "replace": "第 $1 层"},
-    {"pattern": r"^in the (.+)$", "replace": "在$1"},
+    {"pattern": r"^in the (.+)$", "replace": "（$1）"},
     {"pattern": r"^in (.+)$", "replace": "在$1"},
     {"pattern": r"^You hear whispers that (.+) has obtained a (.+) relic\.$", "replace": "你听到低语：$1 获得了一件$2遗物。"},
+    {"pattern": r"^Unable to use Axiom.*$", "replace": "无法使用 Axiom：你的版本过旧，请更新到最新版才能在本服使用"},
     {"pattern": r"^([A-Za-z][A-Za-z' \-]*) (\d+)/(\d+)$", "replace": "$1 $2/$3"},
     {"pattern": r"^Layer:?\s*(\d+)$", "replace": "层数：$1"},
     # 常见动作提示
