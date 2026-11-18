@@ -2672,6 +2672,7 @@
   "It changes colour even in your hand.": "它在手中也会不断变色",
   "It feels like it's staring into your soul...": "它仿佛在凝视你的灵魂…",
   "It is said it tastes like sushi.": "据说尝起来像寿司",
+  "It is said that these beasts house a": "据说这些野兽体内蕴藏着",
   "It resembles the feathers": "它看起来像那种羽毛",
   "It seems sharp enough": "看起来足够锋利",
   "it still smells horrid...": "依然臭得吓人…",
@@ -2685,6 +2686,7 @@
   "It-changes-colour-even-in-your-hand.": "它在手中也会不断变色",
   "It-feels-like-it's-staring-into-your-soul...": "它仿佛在凝视你的灵魂…",
   "It-is-said-it-tastes-like-sushi.": "据说尝起来像寿司",
+  "It-is-said-that-these-beasts-house-a": "据说这些野兽体内蕴藏着",
   "It-resembles-the-feathers": "它看起来像那种羽毛",
   "It-seems-sharp-enough": "看起来足够锋利",
   "it-still-smells-horrid...": "依然臭得吓人…",
@@ -4831,8 +4833,10 @@
   "Resin-Clump": "树脂团",
   "Resistance": "抗性提升",
   "Respawn Anchor": "重生锚",
+  "Respawn point has been removed": "重生点已移除",
   "Respawn point set": "已设置重生点",
   "Respawn-Anchor": "重生锚",
+  "Respawn-point-has-been-removed": "重生点已移除",
   "Respawn-point-set": "已设置重生点",
   "Respawning at bonfire...": "正在篝火处重生…",
   "Respawning-at-bonfire...": "正在篝火处重生…",
@@ -5109,6 +5113,8 @@
   "Spiralsquid-Raw": "生螺旋鱿",
   "Spire Armor Trim": "尖塔盔甲纹饰",
   "Spire-Armor-Trim": "尖塔盔甲纹饰",
+  "spiritual fire within.": "一团灵火。",
+  "spiritual-fire-within.": "一团灵火。",
   "Spittleshrub": "吐刺灌木",
   "Spittleshrub Root": "吐刺灌木根",
   "Spittleshrub-Root": "吐刺灌木根",
@@ -6191,7 +6197,11 @@
   "Zombified Piglin": "僵尸猪灵",
   "Zombified Piglin Spawn Egg": "僵尸猪灵刷怪蛋",
   "Zombified-Piglin": "僵尸猪灵",
-  "Zombified-Piglin-Spawn-Egg": "僵尸猪灵刷怪蛋"
+  "Zombified-Piglin-Spawn-Egg": "僵尸猪灵刷怪蛋",
+  "✔ Respawn point set": "✔ 已设置重生点",
+  "✔-Respawn-point-set": "✔ 已设置重生点",
+  "❌ Respawn point has been removed": "❌ 重生点已移除",
+  "❌-Respawn-point-has-been-removed": "❌ 重生点已移除"
  },
  "patterns": [
   {

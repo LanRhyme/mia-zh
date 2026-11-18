@@ -59,6 +59,8 @@ public final class Translator {
     private volatile long userStamp = -1L;
     private volatile long configStamp = -1L;
 
+    private static final ThreadLocal<Boolean> RECORDING = ThreadLocal.withInitial(() -> Boolean.FALSE);
+
     private final Map<String, String> cache = new ConcurrentHashMap<>();
     private final Map<String, int[]> misses = new ConcurrentHashMap<>();
     private final Map<String, Integer> stats = new ConcurrentHashMap<>();
@@ -66,6 +68,19 @@ public final class Translator {
     private long lastMisses = 0L;
 
     private Translator() {
+    }
+
+    /** 扫描容器时临时关掉翻译，保证记录到的是英文原文 */
+    public void beginRecording() {
+        RECORDING.set(Boolean.TRUE);
+    }
+
+    public void endRecording() {
+        RECORDING.set(Boolean.FALSE);
+    }
+
+    public void recordRaw(String raw) {
+        recordMiss(raw);
     }
 
     // ---------------------------------------------------------------- 启动
@@ -461,7 +476,7 @@ public final class Translator {
     // ---------------------------------------------------------------- 翻译
 
     public Text translate(Text in) {
-        if (!enabled || in == null) {
+        if (!enabled || in == null || RECORDING.get()) {
             return in;
         }
         try {

@@ -6,10 +6,11 @@
     "BossBarMixin",
     "ChatHudMixin",
     "EntityMixin",
+    "HandledScreenMixin",
     "InGameHudMixin",
     "ItemStackMixin",
-    "ScreenMixin",
     "ScoreboardObjectiveMixin",
+    "ScreenMixin",
     "TeamMixin"
   ],
   "injectors": {

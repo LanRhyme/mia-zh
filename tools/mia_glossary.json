@@ -499,7 +499,13 @@
   "Thickly furred, and very sturdy...": "毛很厚，结实得很…",
   "relic.": "遗物。",
   "You hear whispers that": "你听到低语：",
-  "has obtained a": "获得了"
+  "has obtained a": "获得了",
+  "It is said that these beasts house a": "据说这些野兽体内蕴藏着",
+  "spiritual fire within.": "一团灵火。",
+  "Respawn point set": "已设置重生点",
+  "Respawn point has been removed": "重生点已移除",
+  "✔ Respawn point set": "✔ 已设置重生点",
+  "❌ Respawn point has been removed": "❌ 重生点已移除"
  },
  "poi": {
   "Sea of Corpses": "尸海",
