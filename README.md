@@ -42,3 +42,12 @@ python3 tools/build_dict.py     # 生成词典
 | `ScoreboardObjective#getDisplayName` | 计分板标题 |
 | `Team#getPrefix` | 计分板侧栏 |
 | `HandledScreen#init` | 打开容器时批量采集英文原文 |
+
+## 致谢与许可
+
+- [MineInAbyss/server-config](https://github.com/MineInAbyss/server-config) MIT，物品名与 lore 原文来源
+- [Mine in Abyss wiki](https://wiki.mineinabyss.com) 物品与生物词表
+- 中文维基「来自深渊角色列表」漫画官方译名参考
+- 原版 `en_us.json` 与 `zh_cn.json` 官方名词译名
+
+本仓库代码与词表以 MIT 许可发布
