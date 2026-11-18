@@ -86,18 +86,30 @@ public final class Translator {
         }
     }
 
+    /**
+     * 释放 jar 内的默认词典。
+     *
+     * 用内容指纹判断，jar 里的词典一变就覆盖磁盘上的 dict.json，
+     * 这样模组升级后新词条能立刻生效；用户自己的改动写在 user.json 里不受影响。
+     */
     private void copyDefaultDict() throws IOException {
-        if (Files.exists(dictFile) && Files.size(dictFile) > 64) {
-            return;
-        }
+        Path marker = dir.resolve(".dict-rev");
+        byte[] bundled;
         try (InputStream in = Translator.class.getResourceAsStream(RESOURCE_DICT)) {
             if (in == null) {
                 MiaZhClient.LOG.warn("[mia-zh] jar 内缺少默认词典 " + RESOURCE_DICT);
                 return;
             }
-            Files.copy(in, dictFile, StandardCopyOption.REPLACE_EXISTING);
-            MiaZhClient.LOG.info("[mia-zh] 已释放默认词典 -> {}", dictFile);
+            bundled = in.readAllBytes();
         }
+        String rev = Integer.toHexString(java.util.Arrays.hashCode(bundled));
+        String known = Files.exists(marker) ? Files.readString(marker, StandardCharsets.UTF_8).strip() : "";
+        if (rev.equals(known) && Files.exists(dictFile) && Files.size(dictFile) > 64) {
+            return;
+        }
+        Files.write(dictFile, bundled);
+        Files.writeString(marker, rev, StandardCharsets.UTF_8);
+        MiaZhClient.LOG.info("[mia-zh] 已释放默认词典 ({}, {} KB)", rev, bundled.length / 1024);
     }
 
     // ---------------------------------------------------------------- 读盘
@@ -189,9 +201,11 @@ public final class Translator {
     private void selfTest() {
         String[][] probes = {
                 {"Diamond Pickaxe", null},
-                {"Soul Sand", null},
-                {"Charcoal Sand Ingot", null},
+                {"Cooked Cyatoria Drumstick", null},
+                {"Corpse-Weeper Eye", null},
                 {"Titanjaw Scale", null},
+                {"Grade II Relic", null},
+                {"It feels like it's staring into your soul...", null},
                 {"Damage: 12", null},
         };
         int ok = 0;
@@ -268,9 +282,17 @@ public final class Translator {
         if (trimmed.isEmpty()) {
             return null;
         }
+        // 带 § 颜色码的文本（服务端物品名常见），剥掉颜色码再查，命中后把首个颜色码带回去
+        String clean = stripLegacyCodes(trimmed);
+        if (!clean.equals(trimmed)) {
+            direct = entries.get(clean);
+            if (direct != null) {
+                return leadingCodes(trimmed) + direct;
+            }
+        }
         for (Pat p : patterns) {
             try {
-                Matcher m = p.pattern.matcher(trimmed);
+                Matcher m = p.pattern.matcher(clean);
                 if (m.matches()) {
                     return m.replaceFirst(p.replace);
                 }
@@ -280,12 +302,53 @@ public final class Translator {
         return null;
     }
 
+    /** §x 颜色码剥除 */
+    private static String stripLegacyCodes(String s) {
+        if (s.indexOf('\u00a7') < 0) {
+            return s;
+        }
+        StringBuilder sb = new StringBuilder(s.length());
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '\u00a7' && i + 1 < s.length()) {
+                i++;
+                continue;
+            }
+            sb.append(c);
+        }
+        return sb.toString();
+    }
+
+    /** 取开头连续的 §x 颜色码，用于把颜色带回译文 */
+    private static String leadingCodes(String s) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i + 1 < s.length(); i += 2) {
+            if (s.charAt(i) == '\u00a7') {
+                sb.append(s, i, i + 2);
+            } else {
+                break;
+            }
+        }
+        return sb.toString();
+    }
+
+    /** 字体/前缀占位符（如 [mineinabyss:ui/prefixes/layer/layer_2@gui]、<emojy:layer_2>）原样放过 */
+    private static boolean isOpaque(String s) {
+        if (s.startsWith("[") && s.indexOf(':') > 0 && s.indexOf(']') > 0) {
+            return true;
+        }
+        if (s.indexOf("<emojy:") >= 0 || s.indexOf("<prefix") >= 0) {
+            return true;
+        }
+        return s.indexOf("@gui]") >= 0;
+    }
+
     /** 记录没命中的原始英文，供后续人工翻译。 */
     private void recordMiss(String raw) {
-        if (!harvest || raw == null) {
+        if (!harvest || raw == null || isOpaque(raw)) {
             return;
         }
-        String s = raw.strip();
+        String s = stripLegacyCodes(raw).strip();
         if (s.length() < 2 || s.length() > 160) {
             return;
         }
@@ -348,7 +411,7 @@ public final class Translator {
         }
         try {
             String whole = in.getString();
-            if (whole == null || whole.isEmpty()) {
+            if (whole == null || whole.isEmpty() || isOpaque(whole)) {
                 return in;
             }
             String hit = resolve(whole);
@@ -361,13 +424,27 @@ public final class Translator {
                 recordMiss(whole);
                 return in;
             }
-            MutableText out = Text.empty();
-            MutableText self = in.copyContentOnly();
-            if (self != null) {
-                out.append(self);
+            // 记录整行（不是碎片），方便翻译整句
+            recordMiss(whole);
+
+            Text[] mapped = new Text[siblings.size()];
+            boolean changed = false;
+            for (int i = 0; i < siblings.size(); i++) {
+                Text sib = siblings.get(i);
+                Text out = translate(sib);
+                mapped[i] = out;
+                if (out != sib) {
+                    changed = true;
+                }
             }
-            for (Text sib : siblings) {
-                out.append(translate(sib));
+            if (!changed) {
+                return in;
+            }
+            // 关键：新父节点必须带上原 style，否则子节点会丢掉继承来的 font / color
+            MutableText out = MutableText.of(in.getContent());
+            out.setStyle(in.getStyle());
+            for (Text t : mapped) {
+                out.append(t);
             }
             return out;
         } catch (Throwable t) {

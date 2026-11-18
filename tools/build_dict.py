@@ -48,9 +48,23 @@ def build_entries() -> dict:
             continue
         entries[en] = zh
 
-    for group in ("items", "mobs", "ui"):
+    for group in ("items", "mobs", "ui", "lore"):
         for en, zh in glossary.get(group, {}).items():
             entries[en] = zh
+
+    # 别名：服务端把「X Cooked」写成「Cooked X」这类语序，两种都要能命中
+    for en, zh in list(entries.items()):
+        for suffix in (" Cooked", " Raw", " Roasted", " Uncooked"):
+            if en.endswith(suffix):
+                base = en[: -len(suffix)]
+                entries.setdefault(suffix.strip() + " " + base, zh)
+                break
+    # 别名：连字符与空格的写法都收
+    for en, zh in list(entries.items()):
+        if "-" in en:
+            entries.setdefault(en.replace("-", " "), zh)
+        elif " " in en:
+            entries.setdefault(en.replace(" ", "-"), zh)
     return entries
 
 
