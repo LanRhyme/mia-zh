@@ -69,6 +69,33 @@ def build_entries() -> dict:
 
 
 PATTERNS = [
+    # 成套物品（护甲/工具/装饰）按家族拼装，避免逐条硬编码
+    {"pattern": r"^Carved (.+)$", "replace": "雕刻$1"},
+    {"pattern": r"^Build-Server Marker Block (.+)$", "replace": "建造服标记方块·$1"},
+    {"pattern": r"^Armor Upgrade: (.+)$", "replace": "护甲升级：$1"},
+    {"pattern": r"^Heavy Delving (.+)$", "replace": "重型探窟$1"},
+    {"pattern": r"^Light Delving (.+)$", "replace": "轻型探窟$1"},
+    {"pattern": r"^Orphan Delving (.+)$", "replace": "孤儿院探窟$1"},
+    {"pattern": r"^Orphanage Issued (.+)$", "replace": "孤儿院配发$1"},
+    {"pattern": r"^Stingerhead (.+)$", "replace": "刺头$1"},
+    {"pattern": r"^Charcoal Sand (.+)$", "replace": "炭沙$1"},
+    {"pattern": r"^Gold (.+)$", "replace": "金$1"},
+    {"pattern": r"^Cooked (.+)$", "replace": "熟$1"},
+    {"pattern": r"^Raw (.+)$", "replace": "生$1"},
+    {"pattern": r"^Roasted (.+)$", "replace": "烤$1"},
+    {"pattern": r"^Baked (.+)$", "replace": "烤$1"},
+    {"pattern": r"^Chiseled (.+)$", "replace": "雕纹$1"},
+    {"pattern": r"^Polished (.+)$", "replace": "磨制$1"},
+    {"pattern": r"^Packed Ice (.+)$", "replace": "浮冰$1"},
+    {"pattern": r"^(.*) Hatchet$", "replace": "$1手斧"},
+    {"pattern": r"^(.*) Sickle$", "replace": "$1镰"},
+    {"pattern": r"^(.*) Pickaxe$", "replace": "$1镐"},
+    {"pattern": r"^(.*) Shovel$", "replace": "$1锹"},
+    {"pattern": r"^(.*) Chestplate$", "replace": "$1胸甲"},
+    {"pattern": r"^(.*) Leggings$", "replace": "$1护腿"},
+    {"pattern": r"^(.*) Helmet$", "replace": "$1头盔"},
+    {"pattern": r"^(.*) Boots$", "replace": "$1靴"},
+    {"pattern": r"^(.*) Pattern$", "replace": "$1图案"},
     # 属性行（MIA lore 里最常见的形式）
     {"pattern": r"^Damage:?\s*(.+)$", "replace": "伤害：$1"},
     {"pattern": r"^Durability:?\s*(.+)$", "replace": "耐久：$1"},
@@ -102,6 +129,7 @@ PATTERNS = [
     {"pattern": r"^Range:?\s*(.+)$", "replace": "范围：$1"},
     {"pattern": r"^Speed:?\s*(.+)$", "replace": "速度：$1"},
     {"pattern": r"^Layer\s*(\d+)$", "replace": "第 $1 层"},
+
     {"pattern": r"^in the (.+)$", "replace": "（$1）"},
     {"pattern": r"^in (.+)$", "replace": "在$1"},
     {"pattern": r"^You hear whispers that (.+) has obtained a (.+) relic\.$", "replace": "你听到低语：$1 获得了一件$2遗物。"},

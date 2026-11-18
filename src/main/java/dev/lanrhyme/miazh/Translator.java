@@ -295,8 +295,53 @@ public final class Translator {
     private String lookup(String raw, int depth) {
         String icons = privateChars(raw);
         String core = icons.isEmpty() ? raw : stripPrivate(raw);
+        // 服务端偶尔把 MiniMessage 标签原样发下来（如 <emojy:layer_4>），剥掉标签再查，命中后补回标签
+        String tags = leadingTags(core);
+        String body = stripTags(core).strip();
+        if (!body.equals(core.strip())) {
+            String translated = lookupCore(body, depth);
+            if (translated != null) {
+                return tags + translated + icons;
+            }
+        }
         String out = lookupCore(core, depth);
         return out == null ? null : out + icons;
+    }
+
+    /** 取开头连续的 <...> 标签 */
+    private static String leadingTags(String s) {
+        int i = 0;
+        int end = 0;
+        while (i < s.length() && s.charAt(i) == '<') {
+            int close = s.indexOf('>', i);
+            if (close < 0) {
+                break;
+            }
+            i = close + 1;
+            end = i;
+        }
+        return s.substring(0, end);
+    }
+
+    private static String stripTags(String s) {
+        if (s.indexOf('<') < 0 || s.indexOf('>') < 0) {
+            return s;
+        }
+        StringBuilder sb = new StringBuilder(s.length());
+        int i = 0;
+        while (i < s.length()) {
+            char c = s.charAt(i);
+            if (c == '<') {
+                int close = s.indexOf('>', i);
+                if (close > 0) {
+                    i = close + 1;
+                    continue;
+                }
+            }
+            sb.append(c);
+            i++;
+        }
+        return sb.toString();
     }
 
     private static String privateChars(String s) {
