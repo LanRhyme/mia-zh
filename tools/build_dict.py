@@ -48,7 +48,7 @@ def build_entries() -> dict:
             continue
         entries[en] = zh
 
-    for group in ("items", "mobs", "ui", "lore"):
+    for group in ("items", "mobs", "ui", "lore", "poi"):
         for en, zh in glossary.get(group, {}).items():
             entries[en] = zh
 
@@ -74,6 +74,14 @@ PATTERNS = [
     {"pattern": r"^Durability:?\s*(.+)$", "replace": "耐久：$1"},
     {"pattern": r"^Defense:?\s*(.+)$", "replace": "防御：$1"},
     {"pattern": r"^Armor:?\s*(.+)$", "replace": "护甲：$1"},
+    {"pattern": r"^Attack Damage:?\s*(.+)$", "replace": "攻击伤害：$1"},
+    {"pattern": r"^Attack Speed:?\s*(.+)$", "replace": "攻击速度：$1"},
+    {"pattern": r"^Max Health:?\s*(.+)$", "replace": "最大生命：$1"},
+    {"pattern": r"^Movement Speed:?\s*(.+)$", "replace": "移动速度：$1"},
+    {"pattern": r"^Mining Speed:?\s*(.+)$", "replace": "挖掘速度：$1"},
+    {"pattern": r"^Armor Toughness:?\s*(.+)$", "replace": "盔甲韧性：$1"},
+    {"pattern": r"^Knockback Resistance:?\s*(.+)$", "replace": "击退抗性：$1"},
+    {"pattern": r"^Luck:?\s*(.+)$", "replace": "幸运：$1"},
     {"pattern": r"^Weight:?\s*(.+)$", "replace": "重量：$1"},
     {"pattern": r"^Price:?\s*(.+)$", "replace": "价格：$1"},
     {"pattern": r"^Value:?\s*(.+)$", "replace": "价值：$1"},

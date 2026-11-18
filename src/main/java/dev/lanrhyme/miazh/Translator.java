@@ -411,13 +411,16 @@ public final class Translator {
         }
         try {
             String whole = in.getString();
-            if (whole == null || whole.isEmpty() || isOpaque(whole)) {
+            if (whole == null || whole.isEmpty()) {
                 return in;
             }
             String hit = resolve(whole);
             if (hit != null) {
                 stats.merge("hit", 1, Integer::sum);
                 return Text.literal(hit).setStyle(in.getStyle());
+            }
+            if (isOpaque(whole)) {
+                return in;
             }
             List<Text> siblings = in.getSiblings();
             if (siblings == null || siblings.isEmpty()) {
