@@ -23,6 +23,12 @@ python3 tools/build_dict.py     # 生成词典
 
 需要 JDK 21，其余版本已锁在 `gradle.properties`
 
+## 采集日志
+
+别人用了模组之后要回报没翻译的内容时看 [采集日志](docs/COLLECT-LOGS.md)
+
+脚本: `tools/collect_logs.ps1`（Windows）与 `tools/collect_logs.sh`（Linux / macOS），产物会打到桌面
+
 ## 文档
 
 - [交接文档](docs/HANDOFF.md) 现状、构建、词典流水线、数据来源、待办、已知限制
